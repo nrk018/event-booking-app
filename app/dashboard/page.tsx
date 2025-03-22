@@ -150,7 +150,7 @@ export default function DashboardPage() {
               <Card className="bg-gray-900/50 backdrop-blur-sm border-gray-800">
                 <CardContent className="p-6">
                   <div className="space-y-6">
-                    {upcomingEvents.slice(0, 2).map((event, index) => (
+                    {upcomingEvents.slice(0, 2).map((event) => (
                       <div
                         key={event.id}
                         className="flex flex-col md:flex-row gap-6 p-4 rounded-lg border border-gray-800 hover:border-purple-500/50 transition-colors"

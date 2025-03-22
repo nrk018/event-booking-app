@@ -72,7 +72,7 @@ export default function EventDetailPage({ params }: { params: { id: string } }) 
                     <h3>About This Event</h3>
                     <p>{event.description}</p>
 
-                    <h3>What You'll Experience</h3>
+                    <h3>What You&apos;ll Experience</h3>
                     <ul>
                       {event.highlights.map((highlight, index) => (
                         <li key={index}>{highlight}</li>
